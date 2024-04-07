@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.406" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Test the login page for invalid credentials" name="Login page validation for invalid credentials - Example #1.1" time="14.105">
+<system-out><![CDATA[
+Given browser is opened.....................................................passed
+And invalid user is on login page...........................................passed
+When invalid user enters wrong incorrectUser and Password123................passed
+And enter on submit button..................................................passed
+Then invalid username will be displayed.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
